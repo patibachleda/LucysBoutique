@@ -1,0 +1,162 @@
+<html>
+
+<!-- the nav bar doesn't respond properly idk why maybe a typo somewhere -->
+<!-- create a login for mom so she can add listings tm -->
+
+	<head>
+		<title>Lucy's Boutique</title>
+		<link rel ="stylesheet" href = "style.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="//db.onlinewebfonts.com/c/7b3c99fe61bbd38acbed8ba8dd1e1398?family=Aviano+Royale+Thin" rel="stylesheet" type="text/css"/>
+	
+
+				<script>
+					/* When the user clicks on the button,
+					toggle between hiding and showing the dropdown content */
+					function myFunction1() {
+	  					document.getElementById("myDropDown1").classList.toggle("show");
+					}
+
+					function myFunction2() {
+	  					document.getElementById("myDropDown2").classList.toggle("show");
+					}
+
+					// Close the dropdown menu if the user clicks outside of it
+					window.onclick = function(event) {
+		  				if (!event.target.matches('.dropbtn1')) {
+		    				var dropdowns = document.getElementsByClassName("dropdown-content1");
+		    				var i;
+		    				for (i = 0; i < dropdowns.length; i++) {
+		      					var openDropdown = dropdowns[i];
+		      					if (openDropdown.classList.contains('show')) {
+		        				openDropdown.classList.remove('show');
+		      					}
+		    				}
+		  				}
+		  				else if (!event.target.matches('.dropbtn2')) {
+		    				var dropdowns = document.getElementsByClassName("dropdown-content2");
+		    				var i;
+		    				for (i = 0; i < dropdowns.length; i++) {
+		      					var openDropdown = dropdowns[i];
+		      					if (openDropdown.classList.contains('show')) {
+		        				openDropdown.classList.remove('show');
+		      					}
+		    				}
+		  				}
+					}
+				</script>
+
+	</head>
+
+	<body>
+		<header>
+			<p>Happy New Year!<p>
+		</header>
+
+		
+		<div class = "navigation">
+			<div class = "Logo"><img src = "Lucy 2.1.png"></div>
+
+			<div class = "nav">
+				<ul>
+				<li><div class="dropdown">
+					<button class="dropbtn">Dropdown</button>
+					  <div class="dropdown-content">
+					    <a href="#">Link 1</a>
+					    <a href="#">Link 2</a>
+					    <a href="#">Link 3</a>
+					  </div>
+				</div></li>
+				<li><div class="dropdown">
+					<button class="dropbtn">Dropdown</button>
+					 	<div class="dropdown-content">
+					    	<a href="#">Link 1</a>
+					    	<a href="#">Link 2</a>
+					    	<a href="#">Link 3</a>
+					  	</div>
+				</div></li>
+				<li><div class="dropdown">
+					<button class="dropbtn">Dropdown</button>
+					 	<div class="dropdown-content">
+					   		<a href="#">Link 1</a>
+					    	<a href="#">Link 2</a>
+					   		<a href="#">Link 3</a>
+					  	</div>
+				</div></li>
+				<li><div class="dropdown">
+					<button class="dropbtn">Dropdown</button>
+					 	<div class="dropdown-content">
+					    	<a href="#">Link 1</a>
+					    	<a href="#">Link 2</a>
+					    	<a href="#">Link 3</a>
+					  	</div>
+				</div></li>
+				<li><a href = "Home.html"><img src = "home.png", style = "width: 30%"></img></a></li>
+			</ul>
+			</div>
+		</div>
+
+		
+
+		<div class = "head_pic">
+			<div class = "heading">
+				Unique Pieces Added Daily
+			</div>
+		</div>
+
+			<br><br>
+
+		<section class = "desc">	
+			<h1>WELCOME</h1>
+			<p>The owner of the store is European and most of the stuff is made in Italy</p>
+		</section>
+<br><br><br>
+		<section class = "pictures">
+			<div class="row">
+	  			<div class="column">
+	    			<a href = "example.html"><img src="pic2.jpg" alt="Item" style="width:100%"></a>
+	    			<div class = "center">Specials</div>
+	  			</div>
+
+	  			<div class="column">
+	    			<a href = "example.html"><img src="pic.jpg" alt="Item" style="width:100%"></a>
+	    			<div class = "center">Specials</div>
+	 	 		</div>
+
+	  			<div class="column">
+	    			<a href = "example.html"><img src="pic3.jpg" alt="Item" style="width:100%"></a>
+	    			<div class = "center">Specials</div>
+	  			</div>
+			</div>
+
+			<div class="row">
+  				<div class="column">
+    				<a href = "example.html"><img src="pic.jpg" alt="Item" style="width:100%"></a>
+    				<div class = "center">Specials</div>
+  				</div>
+
+  				<div class="column">
+    				<a href = "example.html"><img src="pic1.jpg" alt="Item" style="width:100%"></a>
+    				<div class = "center">Specials</div>
+ 	 			</div>
+
+  				<div class="column">
+    				<a href = "example.html"><img src="pic.jpg" alt="Item" style="width:100%"></a>
+    				<div class = "center">Specials</div>
+  				</div>
+			</div>
+		</section>
+<br><br><br>
+
+		<footer>
+			<div class = "logo">
+  				<img src = "Lucy 2.1.png">
+  			</div>
+			<div class = "sign-in">
+  				<p><a href ="LogIn.php">Lucy's Treasure Boutique</a></p>
+  			</div>
+  			<hr class ="line">
+		</footer>
+
+	</body>
+</html>
