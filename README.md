@@ -7,3 +7,4 @@
 #### This project was completed to practice HTML, CSS, and SQL skills. It also allowed me to explore PHP and the transfer of data between pages.
 
 ### This application can not be hosted through GitHub pages as it relies heavily on PHP and SQL database management.
+###### To run, download a web hosting program (I personally use Xampp).
