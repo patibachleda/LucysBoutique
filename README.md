@@ -1,4 +1,3 @@
-![Capture](https://user-images.githubusercontent.com/58675259/131433536-13d12b98-92df-4866-a012-02a3a832f36c.PNG)
 # LucysBoutique
 ## Online Commerce Store | Patrycja Bachleda
 
